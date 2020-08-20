@@ -90,13 +90,11 @@ public class Driver {
         stack1.push(9);
         stack1.push(2);
 
-        // popping off from ArrayStack and displaying as it is removed
         while (stack.size() != 0) {
             System.out.println(stack.pop());
         }
         System.out.println();
 
-        // popping off from LinkedStack and displaying as it is removed
         while (stack1.size() != 0) {
             System.out.println(stack1.pop());
         }
